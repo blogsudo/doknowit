@@ -1,0 +1,42 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0}
+body {
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    color: #333;
+    padding: 6px 10px 7px 10px
+}
+a {
+    font-family: arial;
+    font-size: 12px;
+    color: #111;
+    text-decoration: none;
+    line-height: 20px
+}
+a:hover {
+    text-decoration: underline
+}
+.NewsTicker {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    line-height:20px;
+    height:20px;
+    overflow:hidden
+}
+.ticker-container .ticker-caption {
+    line-height: 20px
+}
+.ticker-container .ticker-caption p {
+    float: left;
+    margin-right: 5px
+}
+.ticker-container .ticker-caption p.arrow {
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #FF688F
+}
