@@ -803,19 +803,14 @@ a[imageanchor="1"] {
 
 /*--- New Menu ----*/
 #cssmenu .home > a {
-    background: url('https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png') no-repeat -2px 0 #87D37C;
+    background: url('https://lh3.googleusercontent.com/-3TrCHCpSxCQ/VmPezh0iF5I/AAAAAAAA5pM/Ir4jH1rGpgo/s116-Ic42/doknowit.png') no-repeat 0px 3px #87d37c;
     text-indent: -10000px;
     display: block;
     padding: 0;
-    width: 128px;
+    width: 118px;
     height: 30px;
-    margin-top: 0px;
-    padding-right: 1px
-}
-#cssmenu .home > a:hover {
-    background: url('https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png') no-repeat -2px 0 #87D37C;
-    text-indent: -10000px;
-    display: block
+    margin-top: 0;
+    padding-right: 1px;
 }
 #cssmenu .site-name > a {
     border-right: 1px solid #87DE7A;
