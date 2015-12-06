@@ -903,11 +903,11 @@ a[imageanchor="1"] {
 }
 #cssmenu > ul > li > a:hover,
 #cssmenu > ul > li > span.no-link:hover {
-    text-shadow: 1px 0 0 #D4330F
+    text-shadow: 1px 0 0 #467140
 }
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li.active > a {
-    color: #418237
+    color: #FFFAC0
 }
 #cssmenu > ul > li.has-sub > a,
 #cssmenu > ul > li.has-sub > span.no-link {
@@ -996,6 +996,9 @@ a[imageanchor="1"] {
 #cssmenu ul i.fa {
     color: #FF8468;
     margin-right: 5px
+}
+#cssmenu > ul > li > a > i.fa {
+    color: #FFF;
 }
 #cssmenu ul i.fa-tablet {
     font-size: 13px
@@ -1482,7 +1485,7 @@ a.home-link {
 	border-radius: 0 0 4px 4px;
 	border: 1px solid;
 	border-top: 0;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
 .top-posts .catw {
     padding: 0 10px
