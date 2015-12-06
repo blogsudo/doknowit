@@ -1863,7 +1863,7 @@ h3.post-title a, .title-summary .entry-title {
         margin-left: 15px
     }
     #cssmenu .home > a:hover {
-        background-position-x: -2px;
+        background-position-x: 0;
         background-color: #87D37C
     }
     #cssmenu .site-name > a {
