@@ -1621,7 +1621,9 @@ p.breadcrumbs {
 h3.post-title a, .title-summary .entry-title {
     font-family: Arial, sans-serif!important
 }
-
+.live-stat {max-width: 170px}
+.fb-share-icon iframe.twitter-share-button {position:relative!important;top:4px}
+.fb-share-icon a.twitter-share-button {color:#fff;font-size:13px}
 /* Mobile */
 
 @media only screen and (max-width: 1023px) {
