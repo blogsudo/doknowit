@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <base target="_parent" />
+    <title>Read more on DoKnowIt</title>
+    <link href="//files.doknowit.com/iframe-style-min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      function NewsTickerAutoPlay() {
+          $(".NewsTicker li:first-child").slideUp(function () {
+              $(this).appendTo(".NewsTicker").fadeIn();
+          });
+      }
+      $(document).ready(function() {
+        timer = setInterval(function () {
+            NewsTickerAutoPlay()
+        }, 3000);
+        $('.NewsTicker').hover(function(ev){
+            clearInterval(timer);
+        }, function(ev){
+        timer = setInterval(function () {
+            NewsTickerAutoPlay()
+        }, 3000);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="ticker-container">
+      <div class="ticker-caption">
+        <p class="arrow"></p>
+        <p>Read more: </p>
+      </div>
+      <ul class="NewsTicker">
+        <li><span><a href="http://aquariumfish.doknowit.com">Aquarium Fish</a></span></li>
+        <li><span><a href="http://birds.doknowit.com">Birds</a></span></li>
+        <li><span><a href="http://bonsai.doknowit.com">Bonsai</a></span></li>
+      </ul>
+    </div>
+  </body>
+</html>
